@@ -6,8 +6,8 @@
 * This new style is based on the Turabian 8th edition style for Zotero.
 * Ibid and ibid-subsequent citations are set to be the same as subsequent citations in the citation layout: **Last name, *Short title*, pages**.
 * For multilingual citations, this style follows the approach found in https://github.com/pulipulichen/blogger/blob/f7544634ebc2ab2ff6fb96362255233d26c05b8d/project/zotero/apa_zh_pulipuli.csl). 
-** It uses separate macros and citation and bibliographic layouts based on the language of the item. 
-** This solution is not valid CSL, and Zotero complains when installing it, but the solution works.
+  * It uses separate macros and citation and bibliographic layouts based on the language of the item. 
+  * This solution is not valid CSL, and Zotero complains when installing it, but the solution works.
 ## Instructions
 ### Installation
 * Download the citation style to your computer. 
