@@ -11,7 +11,7 @@
 ## Instructions
 ### Installation
 * Download the citation style to your computer. 
-* In Zotero > Preferences > Cite > Styles, click the + button and select the downloaded citation style file (sbc-bilingual.csl).
+* In **Zotero > Preferences > Cite > Styles**, click the + button and select the downloaded citation style file (sbc-bilingual.csl).
 ### Creating Citations
 * For Chinese items in Zotero, add **zh-cn** to the Language field.
 * For all other items, English style and formatting will be followed. 
