@@ -10,7 +10,7 @@
   * This solution is not valid CSL, and Zotero complains when installing it, but the solution works.
 ## Instructions
 ### Installation
-* Download the citation style to your computer. 
+* [Download](https://raw.githubusercontent.com/dowens76/sbc-bilingual-zotero/master/sbc-bilingual.csl) the citation style to your computer. 
 * In **Zotero > Preferences > Cite > Styles**, click the + button and select the downloaded citation style file (sbc-bilingual.csl).
 ### Creating Citations
 * For Chinese items in Zotero, add **zh-cn** to the Language field.
