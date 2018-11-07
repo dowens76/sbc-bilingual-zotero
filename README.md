@@ -1,4 +1,3 @@
-# sbc-bilingual-zotero
 # Singapore Bible College Zotero Style for English and Chinese.
 ## Need
 * A Zotero citation style that incorporates both English and Chinese citations that are ordered according to Turabian style but use language-specific punctuation and text such as “edited by” or “translated by”, and so on.
