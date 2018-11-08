@@ -8,6 +8,13 @@
 * For multilingual citations, this style follows the approach found in https://github.com/pulipulichen/blogger/blob/f7544634ebc2ab2ff6fb96362255233d26c05b8d/project/zotero/apa_zh_pulipuli.csl). 
   * It uses separate macros and citation and bibliographic layouts based on the language of the item. 
   * This solution is not valid CSL, and Zotero complains when installing it, but the solution works.
+## Supported Item types
+* Book
+* Book section
+* Journal article
+* Magazine article
+* Website
+Other item types may also work correctly, but test before you use the citation in a paper. 
 ## Instructions
 ### Installation
 * Save the <a href="https://raw.githubusercontent.com/dowens76/sbc-bilingual-zotero/master/sbc-bilingual.csl" targe="_blank">citation style file</a> to your computer. 
