@@ -24,4 +24,4 @@ Other item types may also work correctly, but test before you use the citation i
 * For Chinese items in Zotero, add **zh-cn** to the Language field.
 * For all other items, English style and formatting will be followed. 
 * Double check that the characters display correctly in your word processor.
-* When adding western names to Chinese citations, note that you will have to manually correct citations and bibliographic entries because the style will create Chinese-style names. **Bruce K. Waltke** will display as **Waltke Bruce K.**. However, in the footnote it should be **Bruce K. Waltke**, and in the bibliography it should be **Waltke, Bruce K.**. Note the comma. 
+* When adding western names to Chinese citations, note that you will have to manually correct citations and bibliographic entries because the style will create Chinese-style names. **Bruce K. Waltke** will display as **Waltke Bruce K.** However, in the footnote it should be **Bruce K. Waltke**, and in the bibliography it should be **Waltke, Bruce K.** Note the comma. 
