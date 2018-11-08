@@ -19,7 +19,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>Based on Turabian note style, this style meets the requirements for Singapore Bible College, supporting both English and Chinese citations in the same style.</summary>
-    <updated>2018-11-07T09:54:08+00:00</updated>
+    <updated>2018-11-08T011:33:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   
@@ -835,12 +835,6 @@
     <choose>
       <if type="article-journal article-magazine">
         <text variable="volume" prefix=" "/>
-        <!-- 
-<group prefix="，">
-          <text term="issue" form="short" suffix=" "/> <!~~ ***How is this handled in Chinese? ~~>
-          <number variable="issue"/>
-        </group>
- -->
       </if>
       <else-if type="legal_case">
         <text variable="volume" prefix="，"/>
@@ -852,14 +846,12 @@
         <group prefix="，" delimiter="，">
           <text macro="edition-note-zh"/>
           <group>
-            <text term="volume" form="short" suffix=" "/> <!-- ***How is this handled in Chinese? -->
-            <number variable="volume" form="numeric"/>
+            <number variable="volume" form="numeric" prefix="卷"/>
           </group>
           <choose>
             <if variable="locator" match="none">
               <group>
-                <number variable="number-of-volumes" form="numeric"/>
-                <text term="volume" form="short" prefix=" " plural="true"/> <!-- ***How is this handled in Chinese? -->
+                <number variable="number-of-volumes" form="numeric" prefix="共" suffix="卷"/>
               </group>
             </if>
           </choose>
@@ -914,7 +906,6 @@
     <choose>
       <if type="article-journal article-magazine">
         <text variable="volume" prefix=" "/>
-        <!-- <text variable="issue" prefix="，no. "/>  --><!-- ***How is this handled in Chinese? -->
       </if>
       <else-if type="legal_case">
         <text variable="volume" prefix="，"/>
@@ -925,22 +916,19 @@
         <group prefix="。" delimiter="。">
           <text macro="edition-zh"/>
           <group>
-            <text term="volume" form="short" text-case="capitalize-first" suffix=" "/> <!-- ***How is this handled in Chinese? -->
-            <number variable="volume" form="numeric"/> <!-- ***How is this handled in Chinese? -->
+            <number variable="volume" form="numeric" prefix="卷"/>
           </group>
           <group>
-            <number variable="number-of-volumes" form="numeric"/> <!-- ***How is this handled in Chinese? -->
-            <text term="volume" form="short" prefix=" " plural="true"/> <!-- ***How is this handled in Chinese? -->
+            <number variable="number-of-volumes" form="numeric" prefix="共" suffix="卷"/>
           </group>
         </group>
       </else-if>
       <else-if type="chapter paper-conference" match="any">
-        <group prefix="。" delimiter="。"> <!-- ***How is this handled in Chinese? -->
+        <group prefix="。" delimiter="。">
           <choose>
             <if variable="page" match="none">
               <group>
-                <text term="volume" form="short" text-case="capitalize-first" suffix=" "/> <!-- ***How is this handled in Chinese? -->
-                <number variable="volume" form="numeric"/> <!-- ***How is this handled in Chinese? -->
+                <number variable="volume" form="numeric" prefix="卷"/>
               </group>
             </if>
           </choose>
