@@ -14,6 +14,7 @@
 * Journal article
 * Magazine article
 * Website
+
 Other item types may also work correctly, but test before you use the citation in a paper. 
 ## Instructions
 ### Installation
