@@ -550,10 +550,10 @@
         </choose>
       </if>
       <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-        <text variable="title" prefix="《" suffix="》"/>
+        <text variable="title" form="short" prefix="《" suffix="》"/>
       </else-if>
       <else>
-        <text variable="title" prefix="〈" suffix="〉"/>
+        <text variable="title" form="short" prefix="〈" suffix="〉"/>
       </else>
     </choose>
   </macro>
